@@ -1,0 +1,17 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "bookshelf",
+      "settings": {
+        "client": "postgres",
+        "database": "cipo_strapi_cms",
+        "host": "127.0.0.1",
+        "port": 5432,
+        "username": "strapi",
+        "password": "m0l@5535"
+      },
+      "options": {}
+    }
+  }
+}

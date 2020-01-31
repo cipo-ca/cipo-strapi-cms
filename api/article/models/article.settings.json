@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "author": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "articles"
+    }
+  },
+  "connection": "default",
+  "collectionName": "articles"
+}
