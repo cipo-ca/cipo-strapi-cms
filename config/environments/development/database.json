@@ -11,7 +11,9 @@
         "username": "strapi",
         "password": "m0l@5535"
       },
-      "options": {}
+      "options": {
+        "debug": true
+      }
     }
   }
 }
