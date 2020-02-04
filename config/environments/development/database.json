@@ -12,7 +12,7 @@
         "password": "m0l@5535"
       },
       "options": {
-        "debug": true
+        "debug": false
       }
     }
   }
