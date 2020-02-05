@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/remote-medias",
+      "handler": "remote-media.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/remote-medias/count",
+      "handler": "remote-media.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/remote-medias/:id",
+      "handler": "remote-media.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/remote-medias",
+      "handler": "remote-media.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/remote-medias/:id",
+      "handler": "remote-media.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/remote-medias/:id",
+      "handler": "remote-media.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
