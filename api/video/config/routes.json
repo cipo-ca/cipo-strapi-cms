@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/remote-medias",
-      "handler": "remote-media.find",
+      "path": "/videos",
+      "handler": "video.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/remote-medias/count",
-      "handler": "remote-media.count",
+      "path": "/videos/count",
+      "handler": "video.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/remote-medias/:id",
-      "handler": "remote-media.findOne",
+      "path": "/videos/:id",
+      "handler": "video.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/remote-medias",
-      "handler": "remote-media.create",
+      "path": "/videos",
+      "handler": "video.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/remote-medias/:id",
-      "handler": "remote-media.update",
+      "path": "/videos/:id",
+      "handler": "video.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/remote-medias/:id",
-      "handler": "remote-media.delete",
+      "path": "/videos/:id",
+      "handler": "video.delete",
       "config": {
         "policies": []
       }

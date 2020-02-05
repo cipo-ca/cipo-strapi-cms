@@ -1,28 +1,28 @@
 {
-  "connection": "default",
-  "collectionName": "remote_medias",
   "info": {
-    "name": "Remote Media"
+    "name": "Video"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
+    "Description": {
+      "type": "richtext"
     },
     "url": {
       "type": "string"
     },
-    "thumbnail": {
-      "collection": "file",
+    "screenshot": {
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
     }
-  }
+  },
+  "connection": "default",
+  "collectionName": "videos"
 }
